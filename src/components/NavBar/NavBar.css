@@ -1,0 +1,5 @@
+.NavBar{
+    background-color: var(--lightgreen) !important;
+    color:white;
+    font-weight: bold;
+}

@@ -1,0 +1,56 @@
+{
+  "navbar": {
+    "sections":{
+      "title": "Basic Crud",
+      "list":"Users list",
+      "create":"Create an user"
+    }
+  },
+  "footer":{
+    "phrase":"This project was developed by Alicia Parra"
+  }
+  ,
+  "home":{
+    "title":"List, create, edit and delete",
+    "subtitle":"An app to manage users easily",
+    "button":"Start now!"
+  },
+
+  "list":{
+    "modals":{
+      "title":"Delete",
+      "body":"Are you sure you want to delete this user?",
+      "close":"Close",
+      "delete":"Delete"
+    }, 
+    "title": "Users List",
+    "placeholder":"Search by name",
+    "tableHead":{
+      "id":"Id",
+      "name":"Name",
+      "birthday":"Birthday",
+      "edit":"Edit",
+      "delete":"Delete"
+    },
+    "addButton":"Add a new user",
+    "notUsers":"No users to display "
+  },
+  
+  "userDetail":{
+    "title":"User details",
+    "id":"ID",
+    "birthday":"Birthday",
+    "edit":"Edit user"
+  },
+  "form":{
+    "create":"Create a new user",
+    "edit":"Edit",
+    "name":"Name",
+    "birthdate":"Date of Birth",
+    "namePlaceholder":"Enter a name",
+    "submit":"Submit",
+    "nameError":"Name field is required",
+    "dateError":"Select a date"
+  }
+
+}

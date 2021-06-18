@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "sections":{
+      "title": "CRUD BÁSICO",
+      "list":"Lista de usuarios",
+      "create":"Crear usuario"
+    }
+  },
+  "footer":{
+    "phrase":"Este proyecto ha sido desarrollado por Alicia Parra"
+  },
+  "home":{
+    "title":"Listar, crear, editar y borrar",
+    "subtitle":"Una aplicación para gestionar usuarios fácilmente",
+    "button":"¡Empieza ahora!"
+  },
+  "list":{
+    "modals":{
+      "title":"Eliminar",
+      "body":"¿Está seguro de que quiere eliminar este usuario?",
+      "close":"Cerrar",
+      "delete":"Eliminar"
+    }, 
+    "title": "Lista de usuarios",
+    "placeholder":"Buscar por nombre",
+    "tableHead":{
+      "id":"Id",
+      "name":"Nombre",
+      "birthday":"Cumpleaños",
+      "edit":"Editar",
+      "delete":"Eliminar"
+    },
+    "addButton":"Añadir nuevo usuario",
+    "notUsers":"No hay usuarios que mostrar"
+  },
+  "userDetail":{
+    "title":"Detalles de usuario",
+    "id":"ID",
+    "birthday":"Cumpleaños",
+    "edit":"Editar usuario"
+  },
+  "form":{
+    "create":"Crear nuevo usuario",
+    "edit":"Editar a",
+    "name":"Nombre",
+    "namePlaceholder":"Escriba el nombre",
+    "birthdate":"Fecha de nacimiento",
+    "submit":"Envíar",
+    "nameError":"Rellene el campo nombre",
+    "dateError":"Seleccione una fecha"
+  }
+}

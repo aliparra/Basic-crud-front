@@ -1,0 +1,17 @@
+
+.custom__button__style{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    cursor: pointer;
+    font-weight: bold!important;
+}
+
+.table__style{
+    background-color: white !important;
+}
+
+.table__head{
+    background-color: var(--handgreen);
+    color: white;
+}

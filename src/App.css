@@ -1,0 +1,110 @@
+:root {
+  --lightgreen: #73d460dc;
+  --green: #0ebb0e;
+  --handgreen: #3d8e63;
+  --white: #ffffff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.links__style__override{
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.links__style__override:hover{
+  text-decoration: none !important;
+}
+
+
+.dark__theme{
+  color: white !important;
+}
+
+.dark__theme:hover{
+  color: darkslategray !important;
+}
+
+.light__theme{
+  color: black !important;
+}
+
+.green__theme{
+  color: var(--lightgreen)
+}
+
+.dark__green__theme{
+  color: var(--lightgreen)
+}
+
+.dark__green__theme:hover{
+  color: green
+}
+
+.green__theme:hover{
+  color: white;
+}
+
+.light__theme:hover{
+  color: rgb(15, 124, 30) !important;
+}
+
+.h__titles{
+  font-family: 'Pattaya', sans-serif !important;
+  color:var(--green) !important;
+}
+
+.fake__button{
+  cursor: pointer
+} 
+
+.footer__spacer{
+  height: 100px !important;
+}
+
+.form__wrapper{
+  padding: 30px 80px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.377) !important;
+  
+
+}
+
+

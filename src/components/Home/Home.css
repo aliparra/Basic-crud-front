@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+body{
+    background-image: url(https://res.cloudinary.com/dv4pkbmin/image/upload/v1621442244/Pruebas%20T%C3%A9cnicas/innoCV/pexels-alena-koval-886521_q6xmr2.jpg);
+    background-position: center;
+}
+
+.custom__tit{
+    font-size: 4em;
+}
+.custom__sub{
+    font-size: 2em;
+}
+
+.titles__wrapper{
+    
+    height: 500px;
+    padding:100px;
+    
+}
+
+
+@media (max-width: 450px) { 
+    .custom__tit{
+        font-size: 3em;
+    }
+    .custom__sub{
+        font-size: 2em;
+    } 
+
+    .titles__wrapper{
+        margin-top: 150px;
+        height: 300px;
+        padding:100px;
+        
+    }
+}
+
+@media (max-width: 350px) { 
+    .custom__tit{
+        font-size: 2em;
+    }
+    .custom__sub{
+        font-size: 1em;
+    } 
+
+    .titles__wrapper{
+        margin-top: 50px;
+        padding:0px 10px;
+        
+    }
+}
+
